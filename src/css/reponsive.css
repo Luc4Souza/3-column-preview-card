@@ -1,0 +1,31 @@
+@media(max-width: 1900px){
+    section{
+        padding: 200px 25%;
+        transition: .40s;
+    }
+}
+@media(max-width: 1500px){
+    section{
+        padding: 200px 20%;
+        transition: .40s;
+    }
+}
+@media(max-width: 1050px){
+    section{
+        padding: 200px 10%;
+        transition: .40s;
+    }
+}
+
+@media(max-width: 900px){
+    section{
+        flex-direction: column;
+        padding: 50px 20%;
+    }
+    .card1:nth-child(1){
+        border-radius: 12px 12px 0px 0px;
+    }
+    .card1:nth-child(3){
+        border-radius: 0 0 12px 12px;
+    }
+}

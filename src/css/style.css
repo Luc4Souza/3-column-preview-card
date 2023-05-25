@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background: hsl(0, 0%, 95%);
+}
+section{
+    display: flex;
+    padding: 200px 30%;
+}
+.card1:nth-child(1){
+    background: hsl(31, 77%, 52%);
+    border-radius: 12px 0 0 12px;
+}
+.card1:nth-child(2){
+    background:  hsl(184, 100%, 22%);
+}
+.card1:nth-child(3){
+    background:  hsl(179, 100%, 13%);
+    border-radius: 0 12px 12px 0;
+}
+.card1 img{
+    padding: 30px 15%;
+}
+.card1 h1{
+    padding: 0 15%;
+    font-family: 'Big Shoulders Display', cursive; 
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 35px;
+    text-transform: uppercase;
+}
+.card1 p{
+    padding: 30px 15%;
+    line-height: 25px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 17px;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+.card1 .btn1{
+    padding: 12px 10%;
+    border-radius: 27px;
+    margin: 50px 15%;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    color: hsl(31, 77%, 52%);
+}
+.card1 .btn2{
+    padding: 12px 10%;
+    border-radius: 27px;
+    margin: 50px 15%;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    color:  hsl(184, 100%, 22%);
+}
+.card1 .btn3{
+    padding: 12px 10%;
+    border-radius: 27px;
+    margin: 50px 15%;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    color: hsl(179, 100%, 13%);
+}
+.card1 button:hover{
+    display: inline-block;
+    color:hsla(0, 0%, 100%, 0.75);
+    background: transparent;
+    border: 2px solid hsla(0, 0%, 100%, 0.75);
+    transition: .40s;
+}
